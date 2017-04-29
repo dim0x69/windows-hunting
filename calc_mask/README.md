@@ -9,6 +9,7 @@ go build calc_mask.go
 ## use
 $ ./calc_mask -m "PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION |
 PROCESS_QUERY_INFORMATION"
+
 0x1438
 
 please note: currently not all rights are implemented... i will implement them
